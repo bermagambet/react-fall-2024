@@ -1,10 +1,14 @@
-/* body {
+body {
     margin: 0px;
     background-color: black;
 }
 
 .animate {
     animation: 0.5s fadein;
+}
+
+.fadeout {
+    animation: 0.5s fadeout;
 }
 
 @keyframes fadein {
@@ -14,4 +18,13 @@
     to {
         opacity: 100%;
     }
-} */
+}
+
+@keyframes fadeout {
+    from {
+        opacity: 100%;
+    }
+    to {
+        opacity: 0%;
+    }
+}

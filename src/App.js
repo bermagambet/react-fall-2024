@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import "./App.css";
 // import ContextExample from "./useContext";
 import { Outlet, useLoaderData } from "react-router-dom";
+import Content from "./components/layout/content";
 
 // Outlet component for rendering child route
 
@@ -27,6 +28,7 @@ function App() {
 
   return (
     <>
+      <Content />
       {/* <ContextExample /> */}
       <button onClick={() => setTest(test + "1")}>test</button>
       header side-menu

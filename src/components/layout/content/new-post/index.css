@@ -1,0 +1,11 @@
+.input::placeholder {
+    color: grey;
+}
+
+.button-ribbon button {
+    color: white;
+}
+
+.button-ribbon button:hover {
+    color: grey !important;
+}
